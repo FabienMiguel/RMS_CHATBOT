@@ -1,0 +1,13 @@
+detectlanguage
+Flask
+Flask_Cors
+flask_ngrok
+nltk
+numpy
+requests
+torch
+gunicorn 
+sqlalchemy
+psycopg2
+flask_sqlalchemy
+datetime

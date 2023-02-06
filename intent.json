@@ -1,0 +1,87 @@
+{"intents" :
+    [
+        {
+            "tag":"Greetings",
+            "patterns":  ["hi?", "Hello?","wasup"],
+            "response":["Hi, how can we help you?", "hello, how i assist you, please?"]
+        },
+    {
+        "tag":"Services",
+        "patterns":  ["what are the services you provide?", "what is your services?"],
+        "response":["Procurement of Health Commodities", "Quality management","Sales and Distribution"]
+
+    },
+    {
+        "tag":"Address",
+        "patterns":  ["where do you located?", "what is your address?", "where can i find you?"],
+        "response":["we are located at KN 8 Ave , KG 509 St Kigali", "our address is KN 8 Ave , KG 509 St Kigali","you can find us at KN 8 Ave , KG 509 St Kigali"]
+    },
+    {
+        "tag":"CEO",
+        "patterns":  ["Who is your CEO?", "What is the CEO of RMS"],
+        "response":["Our CEO is Pie Harerimana", "The CEO of RMS is Pie Harerimana"]
+    },
+    {
+        "tag":"Objectives",
+        "patterns":  ["What is your main objective?"],
+        "response":["objective is to ensure availability of medicines, medical supplies and consumables in the right quantity, with the acceptable quality"]
+    },
+    {
+        "tag":"Price",
+        "patterns":  ["?"],
+        "response":["?"]
+    },
+    {
+        "tag":"Become a Customer",
+        "patterns":  ["What is the requirement to be your customer?", "How can I be your customer?"],
+        "response":["?"]
+    },
+    {
+        "tag":"Oder",
+        "patterns":  ["where do you located?", "what is your address?", "where can i find you?"],
+        "response":["we are located at KN 8 Ave , KG 509 St Kigali", "our address is KN 8 Ave , KG 509 St Kigali","you can find us at KN 8 Ave , KG 509 St Kigali"]
+    },
+    {
+        "tag":"Distribution",
+        "patterns":  ["where do you located?", "what is your address?", "where can i find you?"],
+        "response":["we are located at KN 8 Ave , KG 509 St Kigali", "our address is KN 8 Ave , KG 509 St Kigali","you can find us at KN 8 Ave , KG 509 St Kigali"]
+    },
+    {
+        "tag":"Partners",
+        "patterns":  ["what are your partners?", "do you have partner?"],
+        "response":["you can find our partners here https://www.rmsltd.rw/", "use this link to see our partners https://www.rmsltd.rw/"]
+    },
+    {
+        "tag":"Social Media",
+        "patterns":  ["what is your social media?", "where can i find you on social meadia?"],
+        "response":["Our social meadia is Gmail,twitter, and facebook","you can find out on social media via Gmail,twitter, and facebook"]
+    },
+    {
+        "tag":"RMS",
+        "patterns":  ["what is RMS?", "?"],
+        "response":["RMS is company that offers services to its stakeholders and customer’s"]
+    },
+    {
+        "tag":"Job",
+        "patterns":  ["How do i apply for a job at RMS ltdS?", "How can i get job offer at RMS ltd?"],
+        "response":["To apply for a job at RMS please visit: https://www.rmsltd.rw/jobs"]
+    },
+    {
+        "tag":"Tender",
+        "patterns":  ["How do i apply for a tender at RMS ltdS?", "How can i bid for tendering at RMS ltd?"],
+        "response":["To apply for a tender at RMS ltd by visiting: https://www.rmsltd.rw/tender"]
+    },
+    {
+        "tag":"Purchase",
+        "patterns":  ["can i purchase products online at RMS ltd?", "How can i buy products online at RMS ldt?"],
+        "response":["?"]
+    },
+    {
+        "tag":"ending",
+        "patterns":  ["thanks, bye?", "thanks, have a good day"],
+        "response":["you're welcome, bye bye", "good bye"]
+    }
+
+    ]
+            
+}
