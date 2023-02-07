@@ -28,8 +28,8 @@
     },
     {
         "tag":"Price",
-        "patterns":  ["?"],
-        "responses":["?"]
+        "patterns":  [""],
+        "responses":[""]
     },
     {
         "tag":"Become a Customer",
