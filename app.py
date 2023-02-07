@@ -11,8 +11,8 @@ from flask_sqlalchemy import SQLAlchemy # this library help us to create online 
 import datetime
 from chat import chatBot
 chatBot = chatBot()
-#import nltk
-#nltk.download('punkt')
+import nltk
+nltk.download('punkt')
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://admin:IzowlggepwXvXZqyhZh3tGxCvTLnuD2q@dpg-cf35u01a6gdpa6rl5plg-a.oregon-postgres.render.com/chatbotdb_thu5"
 db = SQLAlchemy(app)
