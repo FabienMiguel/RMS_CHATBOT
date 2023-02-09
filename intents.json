@@ -28,8 +28,15 @@
     },
     {
         "tag":"Price",
-        "patterns":  [""],
-        "responses":[""]
+        "patterns":  ["what are the most used electro-medical equipment do you have?", "what is the electro-medical equipment which is mostly usefull than other?"],
+        "responses":["Anesthesia machine",
+        "Phototherapy Devices",
+        "Physiotherapy Devices",
+        "Aspiration/Suction Pump",
+        "Blood Chemistry analyzer",
+        "C-Arm system – unit, monitor, table",
+        "Centrifuge",
+        "Coagulation analyzer"]
     },
     {
         "tag":"Become a Customer",
